@@ -1,0 +1,68 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Github Info
+            </title>
+        </meta>
+        <link href="css/style.css" rel="stylesheet">
+        </link>
+    </head>
+    <body>
+        <script src="js/jquery/jquery-3.2.1.min.js">
+        </script>
+        <script src="js/util.js">
+        </script>
+        <script src="js/app.js">
+        </script>
+        <div class="query-bar">
+            <div>
+                formal url:
+                <input class="formal-url" id="input-formal-url" name="formalUrl" type="text"/>
+                (e.g https://github.com/jquery/jquery)
+            </div>
+            <div>
+                version:
+                <input id="input-version" name="version" type="text"/>
+                (e.g 3.2.1)
+            </div>
+            <button class="query-button" onclick="query()">
+                query
+            </button>
+            <d id="msg" class="msg"></d>
+        </div>
+        <div>
+            <div>
+                sofeware:
+                <d id="software">
+                </d>
+            </div>
+            <div>
+                version:
+                <d id="version">
+                </d>
+            </div>
+            <div>
+                release date (UTC):
+                <d id="release-date">
+                </d>
+            </div>
+            <div>
+                formal url:
+                <a id="formal-url" target="_blank">
+                </a>
+            </div>
+            <div>
+                releases history page:
+                <a id="releases-history-page" target="_blank">
+                </a>
+            </div>
+            <div>
+                issues page:
+                <a id="issues-page" target="_blank">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

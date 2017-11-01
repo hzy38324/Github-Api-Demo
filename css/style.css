@@ -1,0 +1,19 @@
+body {
+	padding: 30px;
+}
+
+.query-bar {
+	margin-bottom: 20px;
+}
+
+.formal-url {
+	width: 300px;
+}
+
+.query-button {
+	margin-top: 10px;
+}
+
+.msg {
+	margin-left: 20px;
+}
